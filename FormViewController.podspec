@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FormViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FormViewController.'
+  s.summary          = 'FormViewController is UIViewController that manages keyboard.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'FormViewController manages keyboard activities. It will automatically make the selected textfield visible if the appearing keyboard overlaps.'
                        DESC
 
   s.homepage         = 'https://github.com/jke661s@gmail.com/FormViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jke661s@gmail.com' => 'jke661s@gmail.com' }
+  s.author           = { 'Jackie Wang' => 'jke661s@gmail.com' }
   s.source           = { :git => 'https://github.com/jke661s@gmail.com/FormViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
-  s.source_files = 'FormViewController/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'FormViewController' => ['FormViewController/Assets/*.png']
