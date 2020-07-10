@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FormViewController_Example' do
+  pod 'FormViewController', :path => '../'
+
+  target 'FormViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
