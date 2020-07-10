@@ -1,0 +1,6 @@
+framework module FormViewController {
+  umbrella header "FormViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

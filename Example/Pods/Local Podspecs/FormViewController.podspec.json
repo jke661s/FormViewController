@@ -1,0 +1,22 @@
+{
+  "name": "FormViewController",
+  "version": "0.1.0",
+  "summary": "A short description of FormViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jke661s@gmail.com/FormViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jke661s@gmail.com": "jke661s@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jke661s@gmail.com/FormViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FormViewController/Classes/**/*"
+}

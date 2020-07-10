@@ -1,0 +1,16 @@
+PODS:
+  - FormViewController (0.1.0)
+
+DEPENDENCIES:
+  - FormViewController (from `../`)
+
+EXTERNAL SOURCES:
+  FormViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FormViewController: d0f6bf9197195ff8a88e7382ec8d6ed745546da1
+
+PODFILE CHECKSUM: e8cc591593dc304bb8f31dd0590347c91822a340
+
+COCOAPODS: 1.9.3
