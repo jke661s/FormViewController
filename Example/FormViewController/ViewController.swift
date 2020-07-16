@@ -26,7 +26,7 @@ class ViewController: FormViewController {
     
     lazy var loginButton = UIButton(title: "Login", titleColor: .white, font: .boldSystemFont(ofSize: 18), backgroundColor: .black, target: self, action: #selector(handleLogin))
     
-    let errorLabel = UILabel(text: "Your login credentials were incorrect, please try again.", font: .systemFont(ofSize: 14), textColor: .red, textAlignment: .center, numberOfLines: 0)
+    let errorLabel = UILabel(text: "Your login credentials were incorrect, please try again later.", font: .systemFont(ofSize: 14), textColor: .red, textAlignment: .center, numberOfLines: 0)
     
     lazy var goToRegisterButton = UIButton(title: "Need an account? Go to register.", titleColor: .black, font: .systemFont(ofSize: 16), target: self, action: #selector(handleGoToRegister))
     
@@ -40,7 +40,7 @@ class ViewController: FormViewController {
         
         emailTextField.autocapitalizationType = .none
         navigationController?.navigationBar.isHidden = true
-        errorLabel.isHidden = true
+//        errorLabel.isHidden = true
         
         logoImageView.setSize(size: .init(width: 80, height: 80))
         logoLabel.setWidth(width: 160)
